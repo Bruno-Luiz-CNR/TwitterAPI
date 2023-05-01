@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "twitterapi"
+version = "1.0.0"
+description = "TestandoTwitterDio"
+authors = ["Bruno <bluizft@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tweepy = "^4.14.0"
+pymongo = "^4.3.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
